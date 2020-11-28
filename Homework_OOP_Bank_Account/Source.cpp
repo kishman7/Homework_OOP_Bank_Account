@@ -31,13 +31,11 @@ public:
 	string Euro = "Euro";
 	string BTC = "BTC";
 
-	int GetPin() {
+	int GetPin() {   // геттер, який повертає змінну Pin, яка є в модифікаторі privat
 		return Pin;
 	}
 private:
 	int Pin = 1111;
-
-
 };
 
 int main()
